@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "title": "Organize ideas into a structured diagram",
+      "slug": "mind-maps",
+      "video": "//play.vidyard.com/SN6S2WbmhSex4jpXBPHtMU.html?v=3.1.1",
+      "subTitle": "Mind maps template",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Mind mapping allows you to take your ideas and organize them into a structured, visual diagram. Starting with your main idea as the central point, sub-themes branch out and connect to supporting ideas - and so on. This allows you to see a broad overview of the concept, as well as its complexities and connections in order to facilitate decision making and promote more effective brainstorming. "
+        },
+        {
+          "type": "paragraph",
+          "text": "Our Mind Mapping template is an online tool where you and your team can collaborate in real time to brainstorm and visually structure your ideas, no matter where your team is located. This online tool shares handy tips as well as examples that best fit your needs when creating concept maps."
+        },
+        {
+          "type": "strong",
+          "text": "Create a mural in your workspace from the template below:"
+        },
+        {
+          "type": "image",
+          "value": "https://muralco.cdn.prismic.io/muralco%2Ff6309176-b131-4936-8066-01ce94a2d5fd_from+template+gif.gif"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Visualize your business goals and activities",
+      "slug": "business-model-canvas",
+      "video": "//play.vidyard.com/sunrxjdXHAJAvH2MNFbB5q.html?v=3.1.1",
+      "subTitle": "business model canvas",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "The Business Model Canvas (by Strategyzer) is a strategic management tool that helps businesses align their goals to their activities. As a visual chart, it helps you plan, describe and develop your business' value proposition, infrastructure, customers and finances. "
+        },
+        {
+          "type": "paragraph",
+          "text": "Watch this video for a quick introduction to the Business Model Canvas:"
+        },
+        {
+          "type": "iframe",
+          "value": "https://youtu.be/QoAOzMTLP5s"
+        },
+        {
+          "type": "paragraph",
+          "text": "This template gives you separate spaces to work through all nine sections of the BMC, as well as the full BMC framework to organize your completed thoughts into a single asset. Create a mural from the template, then invite your teammates to start collaborating."
+        },
+        {
+          "type": "strong",
+          "text": "Create a mural in your workspace from the template below:"
+        },
+        {
+          "type": "image",
+          "value": "https://muralco.cdn.prismic.io/muralco/4464d73a67a53fca030c73ee6e274373a58ff15f_bmc-1.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Quickly solve big problems and test new ideas",
+      "slug": "design-sprint",
+      "video": "//play.vidyard.com/mHYRaNYULxsLgDCTSqUKJC.html?v=3.1.1",
+      "subTitle": "Design sprint templates",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Whether you’re working at a startup or a large organization, developing the right product or service for your customer is key to your success. We can’t afford to wait for a product to launch in order to understand if it’s the right thing to be investing time and money into."
+        },
+        {
+          "type": "paragraph",
+          "text": "A design sprint is a process for answering critical business questions and getting customer feedback in a compressed amount of time, leading to breakthroughs that might otherwise take months."
+        },
+        {
+          "type": "iframe",
+          "value": "https://youtu.be/K2vSQPh6MCE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Typically, a sprint team will get together in the same place and focus on the problem for 5 days, but with the right tools and mentality, fully remote design sprints can be just as productive."
+        },
+        {
+          "type": "strong",
+          "text": "Create a mural in your workspace from the templates below:"
+        },
+        {
+          "type": "image",
+          "value": "https://muralco.cdn.prismic.io/muralco/f0252819d5496c54486e2f50ec26a890864c298c_0.jpg"
+        }
+      ]
+    }
+  ]
+}
