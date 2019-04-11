@@ -2,6 +2,7 @@
   "results": [
     {
       "id": 1,
+      "category": "Design",
       "title": "Organize ideas into a structured diagram",
       "slug": "mind-maps",
       "video": "//play.vidyard.com/SN6S2WbmhSex4jpXBPHtMU.html?v=3.1.1",
@@ -27,6 +28,7 @@
     },
     {
       "id": 2,
+      "category": "Business",
       "title": "Visualize your business goals and activities",
       "slug": "business-model-canvas",
       "video": "//play.vidyard.com/sunrxjdXHAJAvH2MNFbB5q.html?v=3.1.1",
@@ -60,6 +62,7 @@
     },
     {
       "id": 3,
+      "category": "Sprint",
       "title": "Quickly solve big problems and test new ideas",
       "slug": "design-sprint",
       "video": "//play.vidyard.com/mHYRaNYULxsLgDCTSqUKJC.html?v=3.1.1",
