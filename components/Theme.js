@@ -18,6 +18,7 @@ import {
   alignContent,
   alignItems
 } from 'styled-system';
+
 import UnstyledLogo from './Logo';
 
 const Logo = styled(UnstyledLogo)`

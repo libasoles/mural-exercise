@@ -5,6 +5,8 @@ import { P, Wrapper } from '../components/Theme';
 import Hero from '../components/Hero';
 import useServiceWorker from '../libraries/serviceWorker/useServiceWorker';
 import FrameworksList from '../components/FrameworksList';
+import Carrousel from '../components/Carousel';
+import { slides } from '../data/slides';
 
 const Home = ({ resources }) => {
   useServiceWorker(resources);
@@ -24,6 +26,10 @@ const Home = ({ resources }) => {
         <P textAlign="center" fontSize={[0, 1]} color="#f06" mb={[2, 4]}>
           Start a free trial now
         </P>
+      </Wrapper>
+
+      <Wrapper width={[1, 3 / 4]}>
+        <Carrousel slides={slides} />
       </Wrapper>
 
       <Wrapper>
