@@ -5,7 +5,6 @@ import BasicLayout from '../components/Layouts';
 import Body from '../components/Body';
 import { P, Wrapper } from '../components/Theme';
 import templates from '../data/templates';
-import 'video-react/dist/video-react.css';
 import Hero from '../components/Hero';
 import FrameworksList from '../components/FrameworksList';
 import PageNotFound from '../components/404';
@@ -54,8 +53,8 @@ function getFramework(category, slug) {
 
 Frameworks.getInitialProps = ({ query, res }) => {
   const { category, slug } = query;
-  const framework = getFramework(category, slug);
 
+  const framework = getFramework(category, slug);
   if (!framework && res) {
     res.statusCode = 404;
   }

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
-import Link from 'next/link';
+import { Link } from '../../routes';
 import theme from '../../libraries/theme';
 import Baseline from '../../libraries/global-styles';
 import { Logo } from '../Theme';
@@ -12,7 +12,7 @@ class BasicLayout extends React.PureComponent {
     const { title, children } = this.props;
     return (
       <>
-        <Link href="/">
+        <Link route="home">
           <Logo width="200px" />
         </Link>
 
