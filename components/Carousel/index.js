@@ -30,7 +30,7 @@ const Carousel = ({ slides, className, width = 680 }) => {
   );
 };
 
-const StyledCarrousel = styled(Carousel)`
+const StyledCarousel = styled(Carousel)`
   overflow: hidden;
   padding: 0;
 `;
@@ -41,4 +41,4 @@ Carousel.propTypes = {
   className: PropTypes.string
 };
 
-export default StyledCarrousel;
+export default StyledCarousel;

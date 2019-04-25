@@ -2,7 +2,7 @@ import React from 'react';
 import App, { Container } from 'next/app';
 import 'video-react/dist/video-react.css';
 
-class MyApp extends App {
+class MuralApp extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
 
@@ -24,4 +24,4 @@ class MyApp extends App {
   }
 }
 
-export default MyApp;
+export default MuralApp;
