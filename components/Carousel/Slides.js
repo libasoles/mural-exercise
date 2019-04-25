@@ -4,10 +4,11 @@ import PropTypes from 'prop-types';
 import { Wrapper } from '../Theme';
 import Slide from './Slide';
 
-const Slides = ({ slides, currentSlide, className, width = 680 }) => {
+const Slides = ({ slides, currentSlide, className, width }) => {
   const transitionStyle = {
     transform: `translateX(-${currentSlide * width}px)`,
-    transition: 'transform ease-out 0.45s'
+    transition: 'transform ease-out 0.45s',
+    width: `${width}px`
   };
 
   return (
@@ -22,15 +23,16 @@ const Slides = ({ slides, currentSlide, className, width = 680 }) => {
 Slides.propTypes = {
   slides: PropTypes.array.isRequired,
   currentSlide: PropTypes.number.isRequired,
-  width: PropTypes.number,
+  width: PropTypes.number.isRequired,
   className: PropTypes.string.isRequired
 };
 
 const StyledSlides = styled(Slides)`
   display: flex;
-  overflow: hidden;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
 `;
 
 export default StyledSlides;

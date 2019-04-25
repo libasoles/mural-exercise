@@ -36,7 +36,7 @@ const StyledDot = styled(Dot)`
   border: 2px solid #fff;
   cursor: pointer;
   list-style: none;
-  background: ${({ active, theme }) => (active ? theme.colors.coral : theme.colors.gray)};
+  background: ${({ active, theme }) => (active ? theme.colors.coral : theme.colors.grayMural)};
 `;
 
 export default StyledDot;

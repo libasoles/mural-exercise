@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import { Wrapper } from '../Theme';
 import SlidesNav from './SlidesNav';
 import Slides from './Slides';
@@ -16,22 +17,28 @@ function useAutoplay(currentSlide, slidesCount, setCurrentSlide) {
   }, [currentSlide]);
 }
 
-const Carrousel = ({ slides, className }) => {
+const Carousel = ({ slides, className, width = 680 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slidesCount = slides.length;
   useAutoplay(currentSlide, slidesCount, setCurrentSlide);
 
   return (
-    <Wrapper className={className} w={(1, 1 / 3)}>
-      <Slides slides={slides} currentSlide={+currentSlide} />
+    <Wrapper className={className} width={(1, width)}>
+      <Slides slides={slides} currentSlide={+currentSlide} width={width} />
       <SlidesNav slides={slides} goToSlide={setCurrentSlide} currentSlide={+currentSlide} />
     </Wrapper>
   );
 };
 
-Carrousel.propTypes = {
+const StyledCarrousel = styled(Carousel)`
+  overflow: hidden;
+  padding: 0;
+`;
+
+Carousel.propTypes = {
   slides: PropTypes.array.isRequired,
+  width: PropTypes.string,
   className: PropTypes.string
 };
 
-export default Carrousel;
+export default StyledCarrousel;
