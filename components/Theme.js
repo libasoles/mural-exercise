@@ -13,6 +13,7 @@ import {
   lineHeight,
   margin,
   padding,
+  border,
   flexWrap,
   justifyContent,
   alignContent,
@@ -70,6 +71,9 @@ const Button = styled.button`
   background: rgb(218, 218, 218);
   margin: 0px 10px 10px;
   border-radius: 6px;
+  ${margin};
+  ${padding};
+  ${border};
 `;
 
 const Image = styled.img`

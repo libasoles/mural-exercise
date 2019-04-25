@@ -11,6 +11,7 @@ function useAutoplay(currentSlide, slidesCount, setCurrentSlide) {
       const nextSlide = currentSlide + 1 !== slidesCount ? currentSlide + 1 : 0;
       setCurrentSlide(nextSlide);
     }, 3000);
+
     return () => {
       window.clearInterval(autoplay);
     };
@@ -19,8 +20,7 @@ function useAutoplay(currentSlide, slidesCount, setCurrentSlide) {
 
 const Carousel = ({ slides, className, width = 680 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const slidesCount = slides.length;
-  useAutoplay(currentSlide, slidesCount, setCurrentSlide);
+  useAutoplay(currentSlide, slides.length, setCurrentSlide);
 
   return (
     <Wrapper className={className} width={(1, width)}>
