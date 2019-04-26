@@ -93,6 +93,40 @@
           "value": "https://muralco.cdn.prismic.io/muralco/f0252819d5496c54486e2f50ec26a890864c298c_0.jpg"
         }
       ]
+    },
+    {
+      "id": 4,
+      "category": "Sprint",
+      "title": "Dup Quickly solve big problems and test new ideas",
+      "slug": "dup-design-sprint",
+      "video": "//play.vidyard.com/mHYRaNYULxsLgDCTSqUKJC.html?v=3.1.1",
+      "subTitle": "Design sprint templates",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Whether you’re working at a startup or a large organization, developing the right product or service for your customer is key to your success. We can’t afford to wait for a product to launch in order to understand if it’s the right thing to be investing time and money into."
+        },
+        {
+          "type": "paragraph",
+          "text": "A design sprint is a process for answering critical business questions and getting customer feedback in a compressed amount of time, leading to breakthroughs that might otherwise take months."
+        },
+        {
+          "type": "iframe",
+          "value": "https://youtu.be/K2vSQPh6MCE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Typically, a sprint team will get together in the same place and focus on the problem for 5 days, but with the right tools and mentality, fully remote design sprints can be just as productive."
+        },
+        {
+          "type": "strong",
+          "text": "Create a mural in your workspace from the templates below:"
+        },
+        {
+          "type": "image",
+          "value": "https://muralco.cdn.prismic.io/muralco/f0252819d5496c54486e2f50ec26a890864c298c_0.jpg"
+        }
+      ]
     }
   ]
 }

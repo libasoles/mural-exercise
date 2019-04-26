@@ -1,0 +1,26 @@
+{
+  "slides":
+  [
+    {
+      "id": 1,
+      "src": "https://mural.co/public/assets/images/roi/ice2.jpg",
+      "alt": "Alt 1"
+    },
+    {
+      "id": 2,
+      "src": "https://mural.co/public/assets/images/roi/ice3.jpg",
+      "alt": "Alt 2"
+    },
+    {
+      "id": 3,
+      "src": "https://mural.co/public/assets/images/roi/ice4.jpg",
+      "alt": "Alt 3"
+    },
+    {
+      "id": 4,
+      "src": "https://mural.co/public/assets/images/roi/ice5.jpg",
+      "alt": "Alt 4"
+    }
+  ]
+
+}
